@@ -223,6 +223,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mouseSensitivity: 150
   playerBody: {fileID: 1382064894}
+--- !u!1 &129985951 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8958987131773749581, guid: 4c117cccee7674c7288989572c04d050,
+    type: 3}
+  m_PrefabInstance: {fileID: 8112634969107897809}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &135913399 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1366194072195039786, guid: 72389621be83340499a342bb47387eb8,
@@ -479,7 +485,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_RootOrder
@@ -3025,7 +3031,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1088901227
 Transform:
   m_ObjectHideFlags: 0
@@ -13219,7 +13225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickUp: {fileID: 919132148360187650}
-  original: {fileID: 1655236517}
+  original: {fileID: 129985951}
 --- !u!1 &1551267650
 GameObject:
   m_ObjectHideFlags: 0
@@ -13465,6 +13471,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: ThirdPersonController_LITE
       objectReference: {fileID: 0}
+    - target: {fileID: 4425428723088313499, guid: fc9b148a2950aaf4cba8422632222c5d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4425428723088313500, guid: fc9b148a2950aaf4cba8422632222c5d,
         type: 3}
       propertyPath: m_Avatar
@@ -13527,12 +13538,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc9b148a2950aaf4cba8422632222c5d, type: 3}
---- !u!1 &1655236517 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6038052222077927997, guid: 5107bdcd3d5f544f99899ecbef79c66f,
-    type: 3}
-  m_PrefabInstance: {fileID: 421047821}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1669618098
 GameObject:
   m_ObjectHideFlags: 0
@@ -17186,7 +17191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2027448535
 Transform:
   m_ObjectHideFlags: 0
@@ -17383,7 +17388,7 @@ PrefabInstance:
     - target: {fileID: 3320121097851402880, guid: 40d343471ec70446b9982d5fafd95415,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4989178136072188482, guid: 40d343471ec70446b9982d5fafd95415,
         type: 3}
@@ -17476,7 +17481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 2068993270}
-  keyBoardbutton: 102
+  keyBoardbutton: 323
 --- !u!114 &2090168429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17490,7 +17495,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   door: {fileID: 135913399}
-  keyBoardbutton: 102
+  keyBoardbutton: 324
 --- !u!4 &2135333227 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4425428723088313501, guid: fc9b148a2950aaf4cba8422632222c5d,
@@ -17863,7 +17868,7 @@ PrefabInstance:
     - target: {fileID: 5926853992191462964, guid: 1961cfc8d571d43aaaaab20572672d35,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6416427570767451278, guid: 1961cfc8d571d43aaaaab20572672d35,
         type: 3}
@@ -17992,7 +17997,7 @@ PrefabInstance:
     - target: {fileID: 8958987131773749581, guid: 4c117cccee7674c7288989572c04d050,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c117cccee7674c7288989572c04d050, type: 3}
