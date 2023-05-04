@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: FlipCube
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-137.4624,"y":-91.674},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"button":{"$content":"Left","$type":"Ludiq.MouseButton"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":-504.0,"y":-211.0},"guid":"c684aa20-7a2c-4b04-8e48-8dcbe2e2cf38","$version":"A","$type":"Bolt.OnMouseInput","$id":"9"},{"chainable":false,"member":{"name":"AddForce","parameterTypes":["UnityEngine.Vector3","UnityEngine.ForceMode"],"targetType":"UnityEngine.Rigidbody","targetTypeName":"UnityEngine.Rigidbody","$version":"A"},"defaultValues":{"target":null,"%force":{"x":-3.0,"y":4.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%mode":{"$content":"Impulse","$type":"UnityEngine.ForceMode"}},"position":{"x":-143.0,"y":-232.0},"guid":"40783763-f200-4969-933e-64cc93a8a8a0","$version":"A","$type":"Bolt.InvokeMember","$id":"11"},{"coroutine":false,"defaultValues":{"button":{"$content":"Right","$type":"Ludiq.MouseButton"},"action":{"$content":"Down","$type":"Ludiq.PressState"}},"position":{"x":-522.0,"y":14.0},"guid":"bd00ca4d-3c96-4375-980d-5732a0bc8b5f","$version":"A","$type":"Bolt.OnMouseInput","$id":"14"},{"chainable":false,"member":{"name":"AddForce","parameterTypes":["UnityEngine.Vector3","UnityEngine.ForceMode"],"targetType":"UnityEngine.Rigidbody","targetTypeName":"UnityEngine.Rigidbody","$version":"A"},"defaultValues":{"target":null,"%force":{"x":3.0,"y":4.0,"z":0.0,"$type":"UnityEngine.Vector3"},"%mode":{"$content":"Impulse","$type":"UnityEngine.ForceMode"}},"position":{"x":-161.0,"y":-7.0},"guid":"eef0721b-4153-470f-bc24-cc50f80df604","$version":"A","$type":"Bolt.InvokeMember","$id":"16"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"f1191d0c-1e03-4ddb-a7e6-cab38f342f09","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"a6e0c3aa-3fee-4602-96ca-b27d23baadc7","$type":"Bolt.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
